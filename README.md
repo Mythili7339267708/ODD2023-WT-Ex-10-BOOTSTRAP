@@ -266,68 +266,72 @@ Add a script to handle the form validation on submit.
 
 CODE 10(3):
 ```
+<!DOCTYPE html>
 <form>
-      <div class="form-group">
-      <div class="col-md-6">
-                  <label for="valid01" class="form-label">Username</label>
-                  <input type="text" class="form-control" id="valid01" required>
-                 <div class="invalid-feedback">
-                       Please provide a valid Username.
-                  </div>
-            </div>
-      <div class="col-md-3">
-                  <label for="valid02" class="form-label">Password</label>
-                  <input type="text" class="form-control" id="valid02" required>
-                 <div class="invalid-feedback">
-                       Please provide a valid Password.
-                  </div>
-            </div>
-      <div class="col-md-3">
-                  <label for="valid03" class="form-label">Department</label>
-                  <select class="form-select" id="valid04" required>
-                        <option>Choose anyone Department</option>
-                        <option>AIML</option>
-                        <option>AIDS</option>
-                        <option>IOT</option>
-                  </select>
-                  <div class="invalid-feedback">
-                        Please select a valid Department.
-                  </div>
-            </div>
-      <div class="col-md-9">
-                  <label for="valid04" class="form-label">Mobile Number</label>
-                  <input type="text" class="form-control" id="valid04" required>
-      <div class="valid-feedback">
-                        Entered Details are correct.
-                  </div>
-            </div>
-      <div class="col-md-9">
-                  <label for="valid05" class="form-label">Designation</label>
-                  <input type="text" class="form-control" id="valid05" required>
-      <div class="valid-feedback">
-                        Entered Details are correct.
-                  </div>
-            </div>
-      <div class="col-md-9">
-                  <label for="valid06" class="form-label">E-Mail ID</label>
-                  <input type="text" class="form-control" id="valid06" required>
-      <div class="valid-feedback"> Entered Details are correct.
-                  </div>
-            </div>
-      <div class="col-md-3">
-                  <label for="valid07" class="form-label">Term & Conditions </label>
-                  <input type="checkbox" class="form-control" id="valid07" required>
-      <div class="invalid-feedback">
-                        You must agree to terms and conditions before submitting...
-                  </div>
-            </div>
-      <button type="button" class="btn btn-success"> Submit </button>
-      ```
+<div class="form-group">
+<div class="col-md-6">
+<label for="valid01" class="form-label">Username</label>
+<input type="text" class="form-control" id="valid01" required>
+<div class="invalid-feedback">
+Please provide a valid Username.
+</div>
+</div>
+<div class="col-md-3">
+<label for="valid02" class="form-label">Password</label>
+<input type="text" class="form-control" id="valid02" required>
+<div class="invalid-feedback">
+Please provide a valid Password.
+</div>
+</div>
+<div class="col-md-3">
+<label for="valid03" class="form-label">Department</label>
+<select class="form-select" id="valid04" required>
+<option>Choose anyone Department</option>
+<option>AIML</option>
+<option>AIDS</option>
+<option>IOT</option>
+</select>
+<div class="invalid-feedback">
+Please select a valid Department.
+</div>
+</div>
+<div class="col-md-9">
+<label for="valid04" class="form-label">Mobile Number</label>
+<input type="text" class="form-control" id="valid04" required>
+<div class="valid-feedback">
+December 2023 Unit - 5 Prepared by Dr.R.Selvakumar 27
+19AI414 – Fundamentals of Web Application Development
+Entered Details are correct.
+</div>
+</div>
+<div class="col-md-9">
+<label for="valid05" class="form-label">Designation</label>
+<input type="text" class="form-control" id="valid05" required>
+<div class="valid-feedback">
+Entered Details are correct.
+</div>
+</div>
+<div class="col-md-9">
+<label for="valid06" class="form-label">E-Mail ID</label>
+<input type="text" class="form-control" id="valid06" required>
+<div class="valid-feedback"> Entered Details are correct.
+</div>
+</div>
+<div class="col-md-3">
+<label for="valid07" class="form-label">Term & Conditions </label>
+<input type="checkbox" class="form-control" id="valid07" required>
+<div class="invalid-feedback">
+You must agree to terms and conditions before submitting...
+</div>
+</div>
+<button type="button" class="btn btn-success"> Submit </button>
+```
 
     OUTPUT 10(3):
     
 
-![stdverform](https://github.com/Mythili7339267708/ODD2023-WT-Ex-10-BOOTSTRAP/assets/144260246/bf340c64-bcbf-49f4-bc03-2a3df5f3cdf9)
+![ex10(3)](https://github.com/Mythili7339267708/ODD2023-WT-Ex-10-BOOTSTRAP/assets/144260246/358cfe5c-bca5-48e6-b404-07065aba63c3)
+
 
 RESULT:
 

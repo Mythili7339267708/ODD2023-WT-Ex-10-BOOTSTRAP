@@ -325,8 +325,9 @@ CODE 10(3):
       ```
 
     OUTPUT 10(3):
-    ![stdverform](https://github.com/Mythili7339267708/ODD2023-WT-Ex-10-BOOTSTRAP/assets/144260246/ad19197a-a18f-4e0a-8644-54d5dfdf05a1)
+    
 
+![stdverform](https://github.com/Mythili7339267708/ODD2023-WT-Ex-10-BOOTSTRAP/assets/144260246/bf340c64-bcbf-49f4-bc03-2a3df5f3cdf9)
 
 RESULT:
 
